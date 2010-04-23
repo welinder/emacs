@@ -11,9 +11,11 @@
     (message "Loaded config file: %s" file)
     ))
 
-(load-cfg-files '("main"
-		  "theme"
-                  "custom"))
+(load-cfg-files '("theme"
+                  "main"
+                  "python"
+                  "custom"
+                  "keybindings"))
 
 (setq custom-file "~/.emacs.d/configs/custom.el")
 
