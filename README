@@ -1,0 +1,18 @@
+This is my `.emacs.d/` configuration. It's **heavily** inspired by the nice organization of Greg Newman's [.emacs](http://github.com/gregnewman/20seven-emacs).
+
+-- Peter Welinder, 22 April 2010
+
+# Configuration Details #
+## Emacs Release ##
+I use the [GNU Emacs 23.1 for Mac OS X](http://emacsformacosx.com/). [Aquamacs](http://aquamacs.org/) is also nice, but the 2.0 beta kept on crashing. Maybe I'll switch in the future.
+
+## Fonts ##
+Based on the [tip from here](http://www.20seven.org/journal/2008/11/distraction-free-programming-with-gnu-emacs.html#comment-25058) I use [Inconsolata Medium](http://www.fontsquirrel.com/fonts/Inconsolata).
+
+
+
+
+
+# Emacs Resources #
+
+## Guides ##
