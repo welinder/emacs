@@ -16,6 +16,7 @@
                   "shell"
                   "custom"
                   "dired"
+                  "textmate"
                   "keybindings"
                   "main"))
 
