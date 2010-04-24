@@ -12,10 +12,12 @@
     ))
 
 (load-cfg-files '("theme"
-                  "main"
                   "python"
+                  "shell"
                   "custom"
-                  "keybindings"))
+                  "dired"
+                  "keybindings"
+                  "main"))
 
 (setq custom-file "~/.emacs.d/configs/custom.el")
 

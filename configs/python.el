@@ -13,5 +13,5 @@
 	;(smart-operator-mode-on)
 	))
 
-(setq ipython-command "/usr/local/bin/ipython")
+;(setq ipython-command "/usr/local/bin/ipython")
 (require 'ipython)

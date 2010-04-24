@@ -14,8 +14,10 @@
 ;;; Display
 (toggle-scroll-bar -1)
 (setq inhibit-startup-message t) ; no splash screen
+; cursor line
 (global-hl-line-mode 1)
-(set-cursor-color "white")
+(set-face-background 'hl-line "#303040")
+(set-cursor-color "#676787")
 
 ;; use UTF-8
 (prefer-coding-system 'utf-8)
