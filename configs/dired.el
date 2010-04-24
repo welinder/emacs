@@ -7,10 +7,10 @@
 (require 'dired-x) 
 (setq dired-omit-files 
       (rx (or (seq bol (? ".") "#")         ;; emacs autosave files 
-;              (seq bol "." (not (any "."))) ;; dot-files 
               (seq "~" eol)                 ;; backup-files 
               (seq bol "CVS" eol)           ;; CVS dirs 
               (seq ".pyc" eol)
+              (seq bol ".DS_Store" eol)
               ))) 
 (setq dired-omit-extensions 
       (append dired-latex-unclean-extensions 

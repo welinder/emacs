@@ -8,6 +8,8 @@
 ; cycle buffers
 (global-set-key (kbd "<M-S-right>") 'bs-cycle-next)
 (global-set-key (kbd "<M-S-previous>") 'bs-cycle-previous)
+; kill buffer the native way with COMMAND-w
+(global-set-key (kbd "s-w") 'kill-buffer)
 
 ;; WINDOW NAVIGATION
 ; cycle through windows

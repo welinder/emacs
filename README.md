@@ -2,6 +2,21 @@ This is my `.emacs.d/` configuration. It's **heavily** inspired by the nice orga
 
 -- Peter Welinder, 22 April 2010
 
+# TODO #
+* more python packages
+* spell check
+* autocomplete
+* textmate-like file search
+* make dired nicer
+* backup to somewhere else (not in directory)
+* add a markdown mode
+* figure out how to do nicer text-wrapping (at least for some modes)
+* how to make the cursor color stick?
+* enable terminal-specific M-S-left and right commands to switch terminals, and a command to list terminals
+* function that takes an input directory and creates a 3-split window with terminal and dired in that directory
+  * favourite starting locations for the above fn?
+* shortcut to make emacs fill available screen space (not full screen)
+
 # Configuration Details #
 ## Emacs Release ##
 I use the [GNU Emacs 23.1 for Mac OS X](http://emacsformacosx.com/). [Aquamacs](http://aquamacs.org/) is also nice, but the 2.0 beta kept on crashing. Maybe I'll switch in the future.
