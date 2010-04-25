@@ -16,8 +16,8 @@
                   "shell"
                   "custom"
                   "dired"
-                  "textmate"
                   "keybindings"
+                  "textmate"
                   "main"))
 
 (setq custom-file "~/.emacs.d/configs/custom.el")

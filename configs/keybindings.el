@@ -6,14 +6,19 @@
 (global-set-key (kbd "<C-tab>") 'bs-show)
 (global-set-key (kbd "C-x C-b") 'buffer-menu)
 ; cycle buffers
-(global-set-key (kbd "<M-S-right>") 'bs-cycle-next)
-(global-set-key (kbd "<M-S-previous>") 'bs-cycle-previous)
+(global-set-key (kbd "<M-s-right>") 'bs-cycle-next)
+(global-set-key (kbd "<M-s-left>") 'bs-cycle-previous)
 ; kill buffer the native way with COMMAND-w
 (global-set-key (kbd "s-w") 'kill-buffer)
+; switch to latest buffer (fast switching)
+(defun switch-to-previous-buffer ()
+      (interactive)
+      (switch-to-buffer (other-buffer)))
+(global-set-key (kbd "<M-tab>") 'switch-to-previous-buffer)
 
 ;; WINDOW NAVIGATION
 ; cycle through windows
-(global-set-key (kbd "<M-tab>") 'other-window)
+(global-set-key (kbd "<C-s-tab>") 'other-window)
 
 ; emacsd-tile.el -- tiling windows for emacs
 ; stolen from http://monkey.org/~marius/emacs-as-a-tiling-window-manager.html
