@@ -8,6 +8,7 @@ This is my `.emacs.d/` configuration. It's **heavily** inspired by the nice orga
 * autocomplete
 * textmate-like file search
 * make dired nicer
+* yasnippet (see [this guide](http://dagobart.wordpress.com/2009/04/09/for-purpose-of-reference-textmate-like-code-completion-in-emacs/) )
 * backup to somewhere else (not in directory)
 * add a markdown mode
 * figure out how to do nicer text-wrapping (at least for some modes)
@@ -16,6 +17,13 @@ This is my `.emacs.d/` configuration. It's **heavily** inspired by the nice orga
 * function that takes an input directory and creates a 3-split window with terminal and dired in that directory
   * favourite starting locations for the above fn?
 * shortcut to make emacs fill available screen space (not full screen)
+* install [anything.el](http://www.20seven.org/journal/2008/11/anything-quicksilver-for-emacs.html)
+* read [dired guide](http://www.20seven.org/journal/2008/11/emacs-dired-directory-management.html)
+* look over the [starter kits](http://www.20seven.org/journal/2008/12/emacs-starter-kits.html)
+* look into [org-mode](http://orgmode.org/)
+* look into [tiny tools](https://savannah.nongnu.org/projects/emacs-tiny-tools)
+* read [emacs fu](http://emacs-fu.blogspot.com/)
+* read [linux guide on emacs](http://www.linuxhelp.net/guides/emacs/)
 
 # Configuration Details #
 ## Emacs Release ##
