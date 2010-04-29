@@ -24,6 +24,10 @@ This is my `.emacs.d/` configuration. It's **heavily** inspired by the nice orga
 * look into [tiny tools](https://savannah.nongnu.org/projects/emacs-tiny-tools)
 * read [emacs fu](http://emacs-fu.blogspot.com/)
 * read [linux guide on emacs](http://www.linuxhelp.net/guides/emacs/)
+* open google chrome [tabs](http://rhodesmill.org/brandon/category/emacs/)
+* investigate [ido-mode](http://www.cua.dk/ido.html)
+* install ECB for nicer file browsing
+* read more about [etags](http://blog.printf.net/articles/2007/10/15/productivity-a-year-on)
 
 # Configuration Details #
 ## Emacs Release ##
@@ -36,7 +40,6 @@ Based on the [tip from here](http://www.20seven.org/journal/2008/11/distraction-
 Use the [color-theme package](http://www.nongnu.org/color-theme/). 
 
 ## Fullscreen ##
-
 For some reason the official 2009 summer release of Cocoa GNU Emacs 23.1 doesn't support fullscreen mode. However, there is a patch available (from typester) that fixes it. See instructions [here](http://www.stratospark.com/blog/2010/fullscreen_emacs_on_osx.html). Steve Purcell provides a [way to patch the latest version of Emacs](http://www.sanityinc.com/full-screen-support-for-cocoa-emacs-on-osx) with the full screen patch from typester.
 
 # Emacs Resources #

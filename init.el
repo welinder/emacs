@@ -16,6 +16,7 @@
                   "shell"
                   "custom"
                   "dired"
+                  "yasnippet"
                   "keybindings"
                   "textmate"
                   "main"))
